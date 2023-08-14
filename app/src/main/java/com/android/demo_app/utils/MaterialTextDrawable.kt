@@ -8,6 +8,7 @@ import android.graphics.drawable.BitmapDrawable
 import android.os.Looper
 import android.text.TextPaint
 import android.widget.ImageView
+import com.android.demo_app.utils.StringHelper
 import java.util.*
 
 class MaterialTextDrawable private constructor(builder: Builder) {

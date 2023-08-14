@@ -2,7 +2,6 @@ package com.android.demo_app.helper;
 
 import android.content.SharedPreferences;
 
-import com.brring.android.api.response.ResponseOtpData;
 import com.google.gson.Gson;
 
 public class PreferenceManger {
@@ -76,14 +75,6 @@ public class PreferenceManger {
 
     public String getAuthToken() {
         return getStringValue(AUTH_TOKEN);
-    }
-
-    public void putUserDetails(ResponseOtpData otpData) {
-        putString(USER_DETAILS, new Gson().toJson(otpData));
-    }
-
-    public ResponseOtpData getUserDetails() {
-        return new Gson().fromJson(getStringValue(USER_DETAILS), ResponseOtpData.class);
     }
 
 }

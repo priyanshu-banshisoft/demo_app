@@ -5,8 +5,8 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 
-import com.brring.android.utils.StringHelper;
-import com.brring.android.utils.StringUtill;
+import com.android.demo_app.utils.StringHelper;
+import com.android.demo_app.utils.StringUtill;
 
 import java.text.NumberFormat;
 
